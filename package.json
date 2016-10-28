@@ -17,5 +17,16 @@
   "dependencies": {
     "lodash": "^4.16.4",
     "react-native-uploader": "0.0.9"
+  },
+  "air": {
+    "compatibility": [ "ios", "android" ],
+
+    "permissions": {
+      "storage:file": true,
+      "net:http": [
+        "*.qiniu.com",
+        "*.qbox.me"
+      ]
+    }
   }
 }
